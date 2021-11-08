@@ -1,0 +1,73 @@
+/*утилитарные классы*/
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+.align-left {
+  float: left;
+}
+
+.align-right {
+float: right;
+}
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav.navbar {
+  background-color: white;
+  
+  box-shadow: 0 0 10px black;
+  cursor: pointer;
+}
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+
+}
+.navbar a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 15px 20px 10px;
+  border-bottom: 5px solid transparent;
+  font-size: 14px;
+}
+.navbar a:hover {
+  border-bottom: 5px solid black;
+}
+
+.navbar.navbar-fixed {
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.navbar.navbar-red {
+  background-color: red;
+}
+.navbar.navbar-red a {
+  color: white;
+}
+
+.navbar.navbar-red a:hover {
+  color: white;
+  border-bottom: 5px solid white;
+}
+
+
