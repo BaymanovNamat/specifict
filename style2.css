@@ -1,0 +1,122 @@
+.navbar {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+
+.navbar .btn {
+  padding: 10px 15px;
+  
+  margin: 0;
+  border-radius: 10px;
+  margin-left: 10px;
+  border: none;
+  color: aqua;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+
+
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3c5bd+0,c72200+19,c72200+19,f3c5bd+43,e86c57+50,ea2803+51,f3c5bd+56,f3c5bd+63,ff6600+75,c72200+98 */
+background: rgb(243,197,189); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(243,197,189,1) 0%, rgba(199,34,0,1) 19%, rgba(199,34,0,1) 19%, rgba(243,197,189,1) 43%, rgba(232,108,87,1) 50%, rgba(234,40,3,1) 51%, rgba(243,197,189,1) 56%, rgba(243,197,189,1) 63%, rgba(255,102,0,1) 75%, rgba(199,34,0,1) 98%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(243,197,189,1) 0%,rgba(199,34,0,1) 19%,rgba(199,34,0,1) 19%,rgba(243,197,189,1) 43%,rgba(232,108,87,1) 50%,rgba(234,40,3,1) 51%,rgba(243,197,189,1) 56%,rgba(243,197,189,1) 63%,rgba(255,102,0,1) 75%,rgba(199,34,0,1) 98%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(243,197,189,1) 0%,rgba(199,34,0,1) 19%,rgba(199,34,0,1) 19%,rgba(243,197,189,1) 43%,rgba(232,108,87,1) 50%,rgba(234,40,3,1) 51%,rgba(243,197,189,1) 56%,rgba(243,197,189,1) 63%,rgba(255,102,0,1) 75%,rgba(199,34,0,1) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.navbar .btn:hover {
+  
+  opacity: 0.9;
+ 
+  color: rgb(255, 0, 191);
+
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+
+
+
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f85032+2,f02f17+24,f02f17+24,f85032+29,f85032+29,f85032+39,f16f5c+50,f6290c+51,f02f17+63,f85032+69,f85032+69,f02f17+75,f85032+88,f85032+88,e73827+100 */
+background: rgb(248,80,50); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(248,80,50,1) 2%, rgba(240,47,23,1) 24%, rgba(240,47,23,1) 24%, rgba(248,80,50,1) 29%, rgba(248,80,50,1) 29%, rgba(248,80,50,1) 39%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 63%, rgba(248,80,50,1) 69%, rgba(248,80,50,1) 69%, rgba(240,47,23,1) 75%, rgba(248,80,50,1) 88%, rgba(248,80,50,1) 88%, rgba(231,56,39,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(248,80,50,1) 2%,rgba(240,47,23,1) 24%,rgba(240,47,23,1) 24%,rgba(248,80,50,1) 29%,rgba(248,80,50,1) 29%,rgba(248,80,50,1) 39%,rgba(241,111,92,1) 50%,rgba(246,41,12,1) 51%,rgba(240,47,23,1) 63%,rgba(248,80,50,1) 69%,rgba(248,80,50,1) 69%,rgba(240,47,23,1) 75%,rgba(248,80,50,1) 88%,rgba(248,80,50,1) 88%,rgba(231,56,39,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(248,80,50,1) 2%,rgba(240,47,23,1) 24%,rgba(240,47,23,1) 24%,rgba(248,80,50,1) 29%,rgba(248,80,50,1) 29%,rgba(248,80,50,1) 39%,rgba(241,111,92,1) 50%,rgba(246,41,12,1) 51%,rgba(240,47,23,1) 63%,rgba(248,80,50,1) 69%,rgba(248,80,50,1) 69%,rgba(240,47,23,1) 75%,rgba(248,80,50,1) 88%,rgba(248,80,50,1) 88%,rgba(231,56,39,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+}
+.navbar .list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+  border-radius: 10px;
+  
+
+  display: none;
+
+  position: absolute;
+  top: 55px;
+  left: 0;
+
+  margin-left: 8px;
+  margin-top: -20px;
+  
+
+
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bf6e4e+3,f0b7a1+20,752201+28,752201+28,752201+34,752201+34,f0b7a1+39,f0b7a1+39,752201+41,f0b7a1+48,f0b7a1+48,8c3310+50,752201+55,f0b7a1+62,f0b7a1+62,f0b7a1+86 */
+background: rgb(191,110,78); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(191,110,78,1) 3%, rgba(240,183,161,1) 20%, rgba(117,34,1,1) 28%, rgba(117,34,1,1) 28%, rgba(117,34,1,1) 34%, rgba(117,34,1,1) 34%, rgba(240,183,161,1) 39%, rgba(240,183,161,1) 39%, rgba(117,34,1,1) 41%, rgba(240,183,161,1) 48%, rgba(240,183,161,1) 48%, rgba(140,51,16,1) 50%, rgba(117,34,1,1) 55%, rgba(240,183,161,1) 62%, rgba(240,183,161,1) 62%, rgba(240,183,161,1) 86%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(191,110,78,1) 3%,rgba(240,183,161,1) 20%,rgba(117,34,1,1) 28%,rgba(117,34,1,1) 28%,rgba(117,34,1,1) 34%,rgba(117,34,1,1) 34%,rgba(240,183,161,1) 39%,rgba(240,183,161,1) 39%,rgba(117,34,1,1) 41%,rgba(240,183,161,1) 48%,rgba(240,183,161,1) 48%,rgba(140,51,16,1) 50%,rgba(117,34,1,1) 55%,rgba(240,183,161,1) 62%,rgba(240,183,161,1) 62%,rgba(240,183,161,1) 86%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(191,110,78,1) 3%,rgba(240,183,161,1) 20%,rgba(117,34,1,1) 28%,rgba(117,34,1,1) 28%,rgba(117,34,1,1) 34%,rgba(117,34,1,1) 34%,rgba(240,183,161,1) 39%,rgba(240,183,161,1) 39%,rgba(117,34,1,1) 41%,rgba(240,183,161,1) 48%,rgba(240,183,161,1) 48%,rgba(140,51,16,1) 50%,rgba(117,34,1,1) 55%,rgba(240,183,161,1) 62%,rgba(240,183,161,1) 62%,rgba(240,183,161,1) 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf6e4e', endColorstr='#f0b7a1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.navbar:hover .list {
+  display: block;
+  
+}
+
+
+.navbar .list li {
+  display: inline-block;
+  padding: 5px;
+}
+.navbar a {
+  display: block;
+  width: 180px;
+  padding: 10px;
+  outline: 3px solid  rgb(255, 0, 0);
+  margin: 5px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 19px;
+  background: rgb(109, 101, 101);
+}
+
+.navbar a:hover {
+  background: rgb(155, 10, 10);
+  color: rgb(251, 255, 0);
+}
+
+
+.navbar.navbar-right {
+  position: sticky;
+  left: 2000px;
+  margin-right: 10px;
+  
+ 
+  
+}
+
+
+
+
